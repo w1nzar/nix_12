@@ -4,6 +4,7 @@ import org.apache.commons.lang3.*;
 import org.apache.commons.io.*;
 
 public class Pehota {
+
     public static void main(String[] args) {
         Natalia natalia = new Natalia();
         Morskaya morskaya = new Morskaya();

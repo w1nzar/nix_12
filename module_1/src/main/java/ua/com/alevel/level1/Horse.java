@@ -4,6 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Horse {
+
     private final int chessBoardSize = 8;
     private String[][] chessBoard = new String[chessBoardSize][chessBoardSize];
     private String startPos;

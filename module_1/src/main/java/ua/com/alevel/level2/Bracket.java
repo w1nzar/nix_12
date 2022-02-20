@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Bracket {
+
     private String inputStr;
 
     public void entering() {
@@ -19,7 +20,7 @@ public class Bracket {
         int closeCountRound = 0, closeCountSquare = 0, closeCountFigured = 0;
 
         for (int i = 0; i < inputArr.length; i++) {
-            switch (inputArr[i]){
+            switch (inputArr[i]) {
                 case "(":
                     brackets.add(inputArr[i]);
                     openCountRound += 1;
@@ -47,7 +48,7 @@ public class Bracket {
             }
         }
 
-        if((openCountRound != closeCountRound) || (openCountSquare != closeCountSquare) || (openCountFigured != closeCountFigured)) {
+        if ((openCountRound != closeCountRound) || (openCountSquare != closeCountSquare) || (openCountFigured != closeCountFigured)) {
             return false;
         }
 

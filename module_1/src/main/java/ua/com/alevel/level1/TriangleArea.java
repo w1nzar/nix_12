@@ -4,6 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class TriangleArea {
+
     private double firstX;
     private double firstY;
     private double secondX;
